@@ -290,7 +290,7 @@ li h3 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
-  margin-top: -45px;
+  
 }
 
 article .ahebergement {
@@ -516,7 +516,7 @@ footer li {
 }
 #affichep
 {
-  margin-top: -40px;
+  margin-top: 20px;
   font-weight: 800;
 }
 @media screen and (max-width: 1030px) {
@@ -790,9 +790,7 @@ footer li {
   font-size: 1em;
 }
 
-#hebergements h2{
-  padding-top:50em;
-}
+
   /* Section Footer */
 
   .containerF {
