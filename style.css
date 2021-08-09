@@ -140,6 +140,11 @@ nav {
   margin-top: 2rem;
 }
 
+.titleH2 {
+  position: relative;
+  display: inline; 
+}
+
 .containeri p 
 {
   margin-top: 10px;
@@ -290,7 +295,8 @@ li h3 {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 2rem;
   row-gap: 2rem;
-  
+  /* margin-top: -45px; */
+  margin-bottom: 20px;
 }
 
 article .ahebergement {
@@ -490,18 +496,18 @@ footer {
 }
 
 .containerF {
-  max-width: 1000px;
-  margin-left: 0;
-  padding: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  max-width: 1200px;
+  padding: 0px 20px;
+  margin: auto;
 }
 
 footer .afooter {
   display: flex;
   flex-direction: column;
   padding: 20px;
-  margin-left: 50px;
+  width: 100%;
 }
 footer .afooter h3
 {
@@ -516,9 +522,11 @@ footer li {
 }
 #affichep
 {
-  margin-top: 20px;
+  /* margin-top: -40px; */
   font-weight: 800;
 }
+
+
 @media screen and (max-width: 1030px) {
   /* Section the most poulard */
 
@@ -553,7 +561,7 @@ footer li {
 
   #affichep
 {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-weight: 800;
 }
   /* herberment + tmp */
@@ -631,7 +639,12 @@ footer li {
   .fas {
     font-size: 0.7rem;
   }
+
+  /* .containerAH {
+    margin-top: 0;
+  } */
 }
+
 
 @media all and (max-width: 700px) {
   .containerb {
@@ -744,7 +757,7 @@ footer li {
   /* herberment + tmp */
   #affichep
   {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-weight: 800;
   }
 
@@ -790,6 +803,9 @@ footer li {
   font-size: 1em;
 }
 
+/* #hebergements h2{
+  padding-top:50em;
+} */
 
   /* Section Footer */
 
